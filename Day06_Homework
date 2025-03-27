@@ -1,0 +1,6 @@
+
+char = input("Enter a phrase")
+if len(char) == 1 and ('a'<=char <='z' or 'A' <= char <= 'Z'):
+    print("Phrase is an alphabet")
+else:
+    print("Phrase is not an alphabet")
