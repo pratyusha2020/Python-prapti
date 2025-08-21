@@ -10,7 +10,7 @@ def calculate_product():
         result_label.config(text="Error: Invalid input. Please enter numbers.")
 
 root = tk.Tk()
-root.title("Product Calculator")
+root.title("Getting Started with Widgets: Product Calculator")
 
 lbl= tk.Label(text= "Welcome to the product calculator, this program multiplies any two numbers inputed by the user!")
 lbl.pack()
